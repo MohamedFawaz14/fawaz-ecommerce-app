@@ -1,0 +1,54 @@
+.price,.shipping,.totalTax,.estimatedTax,.ordertotal
+{
+    margin-top: 4%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.line
+{
+    border-bottom: 1px solid rgba(137, 137, 137, 0.291);
+    width: 65px;
+    margin-left: 76%;
+    
+}
+
+.line1
+{
+    border-bottom: 1px solid rgba(137, 137, 137, 0.291);
+    
+}
+
+
+
+.payment-price
+{
+   margin-left: 55%;
+}
+
+.payment-shipping
+{
+    margin-left: 28%;
+}
+
+.payment-total-tax
+{
+    margin-left: 39%;
+}
+
+.payment-estimated-tax
+{
+    margin-left: 29%;
+}
+
+.payment-order-total
+{
+    margin-left: 40%;
+}
+
+.ordertotal
+{
+    color:rgb(190, 11, 11);
+    font-size: 20px;
+    font-weight: 600;
+}

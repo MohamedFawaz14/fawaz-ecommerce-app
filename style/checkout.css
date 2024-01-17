@@ -1,0 +1,207 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+body{
+    margin: 0;
+}
+.quantity-total
+{
+    color:rgb(0, 108, 162);
+}
+
+
+.header
+{   
+    width: 75%;
+    height:48px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.company-name
+{
+    font-size: 30px;
+    
+   
+}
+.checkout
+{
+    
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+
+.review
+{
+    margin-top: 5%;
+    margin-left: 18.2%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.date
+{
+    
+    color:green;
+    font-size :25px;
+    font-weight:900;
+    margin-bottom: 20px;
+
+}
+
+.images
+{
+    width: 100px;
+    margin-right: 20px;
+    
+    
+}
+
+.cart-summary{
+    display: flex;
+}
+
+.cart-detail
+{
+    padding: 5px 0px 0px 5px;
+    
+   
+}
+
+.cart-grid
+{
+    display:flex;
+}
+.order-summary
+{
+    padding: 20px 0px 0px 20px;
+    margin-top: 1%;
+    margin-left: 42%;
+    margin-bottom: 4%;
+    width: 750px;
+    height:230px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(203, 203, 203, 0.665);
+
+   
+    
+}
+
+.cart-name
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 270px;
+    
+}
+
+.cart-price
+{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(176, 0, 0);
+    margin-bottom: 10px;
+}
+
+.cart-quantity
+{
+    
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.update-quantity-link
+{
+    color:rgb(71, 71, 248);
+    cursor: pointer;
+    margin-left: 2%;
+   
+}
+
+.delete-quantity-link
+{
+    color:rgb(71, 71, 248);
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.delivery-label
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.delivery-container
+{
+    
+    padding: 0px 0px 0px 70px;
+}
+
+.option
+{
+   float: left;
+   width:16px;
+   height: 16px;
+}
+
+.delivery-date
+{
+    color :green;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.delivery-price
+{
+    color:rgb(136, 136, 136);
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.payment-summary
+{
+    padding: 0px 20px 50px 20px;
+    height: 300px;
+    width:300px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(0, 0, 0);
+    margin-left: 21%;
+    margin-top: 0.3%;
+    border-color: rgba(203, 203, 203, 0.665);
+    
+}
+.payment-detail
+{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+button
+{
+    cursor: pointer;
+    margin-top:10%;
+    margin-left:8%;
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: rgb(255, 230, 10);
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight: 500;
+    
+}
