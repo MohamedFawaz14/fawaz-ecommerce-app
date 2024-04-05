@@ -8,8 +8,8 @@
 .line
 {
     border-bottom: 1px solid rgba(137, 137, 137, 0.291);
-    width: 65px;
-    margin-left: 76%;
+    width: 69px;
+    margin-left: 63%;
     
 }
 
@@ -23,7 +23,7 @@
 
 .payment-price
 {
-   margin-left: 55%;
+   margin-left: 48%;
 }
 
 .payment-shipping
@@ -33,7 +33,7 @@
 
 .payment-total-tax
 {
-    margin-left: 39%;
+    margin-left: 36%;
 }
 
 .payment-estimated-tax
@@ -43,7 +43,7 @@
 
 .payment-order-total
 {
-    margin-left: 40%;
+    margin-left: 38%;
 }
 
 .ordertotal
