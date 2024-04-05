@@ -46,13 +46,12 @@ let  dateString = deliveryDate.format(' dddd, MMMM D');
         <span class ="cart-quantity">
         Quantity: <span class="quantity-label">${cartItem.quantity}</span>
         </span>
-        <span class="update-quantity-link">
-        Update
-        </span>
+    <button class= "Delete-btn">
         <span class="delete-quantity-link js-delete"
         data-product-id ="${matchingProducts.id}">
         Delete
     </span>
+    </button>
     </div>
     </div>
 

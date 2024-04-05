@@ -13,40 +13,57 @@ body{
 
 .header
 {   
+    margin-top: 1%;
     width: 75%;
-    height:48px;
+    height:40px;
     justify-content: space-evenly;
     display: flex;
     align-items: center;  
+
 }
 
 a{
     text-decoration: none;
     color: black;
+    margin-right: auto;
+    margin-left: 5%;
+    
+    
+}
+
+a h3 
+{
+    cursor: pointer;
 }
 .company-name
 {
-    font-size: 30px;
+    font-size: 55px;
+    
     
    
 }
+
+
 .checkout
 {
     
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .review
 {
     margin-top: 5%;
-    margin-left: 18.2%;
+   text-align: center;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 600;
 }
+
+
 .date
 {
     
@@ -76,15 +93,24 @@ a{
    
 }
 
-.cart-grid
+.delete-btn
 {
-    display:flex;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 64, 6); 
+    margin-left: 10px;
+    color: white;
 }
+
+
+
+
 .order-summary
 {
     padding: 20px 0px 0px 20px;
     margin-top: 1%;
-    margin-left: 42%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 4%;
     width: 750px;
     height:230px;
@@ -120,20 +146,7 @@ a{
     font-weight: 500;
 }
 
-.update-quantity-link
-{
-    color:rgb(71, 71, 248);
-    cursor: pointer;
-    margin-left: 2%;
-   
-}
 
-.delete-quantity-link
-{
-    color:rgb(71, 71, 248);
-    cursor: pointer;
-    margin-left: 2%;
-}
 
 .delivery-label
 {
@@ -178,7 +191,8 @@ a{
     border-style: solid;
     border-width: thin;
     border-color: rgb(0, 0, 0);
-    margin-left: 21%;
+    margin-left: auto;
+    margin-right: 50%;
     margin-top: 0.3%;
     border-color: rgba(203, 203, 203, 0.665);
     
@@ -205,3 +219,5 @@ button
     font-weight: 500;
     
 }
+
+

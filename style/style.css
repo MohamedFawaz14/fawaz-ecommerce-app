@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 120px;
     background-color: black;
     overflow: hidden;
     
@@ -29,18 +29,19 @@ body{
 {
   
     color:rgb(255, 255, 255);
-    font-size: 32px;
-    margin-left: 50px;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: auto;
     
 }
 
 .cartLogo
 {
-  margin-top: 20%;
-    position: relative;
-  margin-right: 55px;
-    width:50px;
-    height: 45px;
+  margin-top: 30%;
+  position: relative;
+  margin-right: 50px;
+    width:55px;
+    height: 50px;
   
 
 }
@@ -51,11 +52,11 @@ body{
 {
     color: rgb(233, 174, 24);
     position:absolute;
-    top :8px; 
+    top :25px; 
     bottom:0px;
-    margin-left: 22px;
+    margin-left: 25px;
     font-weight: 900;
-    font-size: 19px;  
+    font-size: 30px;  
     width :15px;
     height: 20px;
    
@@ -66,10 +67,11 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   color:white;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
   margin-left: 48px;
   bottom: 20px;
+  margin-right: 5%;
 }
 
 .product-grid
@@ -92,7 +94,7 @@ body{
     padding-top: 30px;
     padding-left: 15px;
     border-width: thin;
-    border-color: rgba(207, 207, 207, 0.314);
+    border-color: rgba(136, 136, 136, 0.314);
     border-style:solid ;
     width:200px;
     height: 520px;
@@ -212,19 +214,19 @@ body{
     }
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 870px) {
     .product-grid {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   
-  @media (max-width: 575px) {
+  @media (max-width: 525px) {
     .product-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
-  @media (max-width: 450px) {
+  @media (max-width: 411px) {
     .product-grid {
       grid-template-columns: 1fr;
     }
