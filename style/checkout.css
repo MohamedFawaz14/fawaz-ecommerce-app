@@ -13,7 +13,7 @@ body{
 
 .header
 {   
-    margin-top: 1%;
+    margin-top: 2%;
     width: 75%;
     height:40px;
     justify-content: space-evenly;
@@ -188,6 +188,7 @@ a h3
     padding: 0px 20px 50px 20px;
     height: 300px;
     width:300px;
+    min-width: 300px;
     border-style: solid;
     border-width: thin;
     border-color: rgb(0, 0, 0);
